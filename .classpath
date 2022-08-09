@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AbstractasVsInterfaces/src"/>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="BigDecimal/src"/>
+	<classpathentry kind="src" path="Casting/src"/>
+	<classpathentry kind="src" path="Composite/src"/>
+	<classpathentry kind="src" path="DemoFinal/src"/>
+	<classpathentry kind="src" path="DemoString/src"/>
+	<classpathentry kind="src" path="Encapsulacion/src"/>
+	<classpathentry kind="src" path="Enums/src"/>
+	<classpathentry kind="src" path="Excepciones/src"/>
+	<classpathentry kind="src" path="HasA-IsA/src"/>
+	<classpathentry kind="src" path="Herencia/src"/>
+	<classpathentry kind="src" path="ID/src"/>
+	<classpathentry kind="src" path="Inicio/src"/>
+	<classpathentry kind="src" path="Interfaces8/src"/>
+	<classpathentry kind="src" path="MakingDecisions/src"/>
+	<classpathentry kind="src" path="ModificadoresAcceso/src"/>
+	<classpathentry kind="src" path="Observer/src"/>
+	<classpathentry kind="src" path="Overriding/src"/>
+	<classpathentry kind="src" path="Polimorfismo/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

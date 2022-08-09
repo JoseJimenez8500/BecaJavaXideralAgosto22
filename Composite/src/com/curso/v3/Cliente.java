@@ -6,23 +6,21 @@ public class Cliente {
 
 	public static void main(String[] args) {
 		
-		List<ComponentExpresion> lista = new ArrayList<>();
 		
-		ComponentExpresion e1 = new LeafConstante(4.5);
-		ComponentExpresion e2 = new LeafConstante(6.7);
-		ComponentExpresion e3 = new LeafConstante(8.55);
-
-		lista.add(e1);
-		lista.add(e2);
-		lista.add(e3);
-		lista.add(new CompositeSuma(e1,e3)); 
-		lista.add(new CompositeSuma(e2,e3));
-		lista.add(new CompositeResta(e3,e3)); 
-		lista.add(new CompositeResta(e2,e1));
-
-		for (ComponentExpresion e:lista)
-			System.out.println(e.getValor());
 		
+		ComponentExpresion e1 = new LeafConstante(4);
+		ComponentExpresion e2 = new LeafConstante(6);
+		ComponentExpresion e3 = new LeafConstante(200);
+		ComponentExpresion e4 = new LeafConstante(3);
+		ComponentExpresion e5 = new LeafConstante(83);
+		
+		ComponentExpresion e6 = new CompositeResta(e1,e2);
+		ComponentExpresion e7 = new CompositeMultiplicacion(e6,e3);
+		ComponentExpresion e8 = new CompositeSuma(e4,e5);
+		ComponentExpresion e9 = new CompositeDivision(e7,e8);
+		
+		System.out.println(e9.getValor());
+
 	}
 
 }
