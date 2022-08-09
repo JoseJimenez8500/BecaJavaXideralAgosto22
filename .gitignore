@@ -45,4 +45,9 @@ Arrays/.classpath
 Arrays/.project
 Composite/.classpath
 Composite/.project
+<<<<<<< HEAD
 /bin/
+=======
+CompositeTest/.classpath
+CompositeTest/.project
+>>>>>>> 548bf0264af4a69cad3b2669b0abc33ea14bd3d1
