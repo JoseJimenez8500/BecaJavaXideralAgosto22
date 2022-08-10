@@ -50,4 +50,9 @@ Composite/.project
 =======
 CompositeTest/.classpath
 CompositeTest/.project
+<<<<<<< HEAD
 >>>>>>> 548bf0264af4a69cad3b2669b0abc33ea14bd3d1
+=======
+Collections/.classpath
+Collections/.project
+>>>>>>> be6a8a212ea48571e776ed465a99bab06e498af7
