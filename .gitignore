@@ -55,4 +55,17 @@ CompositeTest/.project
 =======
 Collections/.classpath
 Collections/.project
+<<<<<<< HEAD
 >>>>>>> be6a8a212ea48571e776ed465a99bab06e498af7
+=======
+maven-web-student-tracker/.classpath
+maven-web-student-tracker/.project
+maven-web-student-tracker/.settings/.jsdtscope
+maven-web-student-tracker/.settings/org.eclipse.wst.common.component
+maven-web-student-tracker/.settings/org.eclipse.wst.jsdt.ui.superType.container
+maven-web-student-tracker/.settings/org.eclipse.wst.jsdt.ui.superType.name
+*.jar
+Servers/.project
+Servers/Tomcat v9.0 Server at localhost-config/catalina.policy
+Servers/Tomcat v9.0 Server at localhost-config/catalina.properties
+>>>>>>> 778fcc7f7724cac0084c8a0e7cd57578b4aa06ae
