@@ -77,4 +77,9 @@ Servers/Tomcat v9.0 Server at localhost-config/tomcat-users.xml
 Servers/Tomcat v9.0 Server at localhost-config/web.xml
 xideralDoctosCurso/Java Variables.mindnode/contents.xml
 xideralDoctosCurso/Java Variables.mindnode/style.mindnodestyle/contents.xml
+<<<<<<< HEAD
 >>>>>>> 25bf12788ad7fd74c4aa6045f1e3da19962ee8c3
+=======
+DemoJdbc/.classpath
+DemoJdbc/.project
+>>>>>>> ec1ac2da8c07c4cf7398d70ca260835ecb9cd5fd
