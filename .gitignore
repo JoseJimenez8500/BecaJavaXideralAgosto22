@@ -92,4 +92,9 @@ spring-jndi-lookup-master/.settings/org.eclipse.wst.common.component
 spring-jndi-lookup-master/.settings/org.eclipse.wst.common.project.facet.core.xml
 spring-jndi-lookup-master/.settings/org.eclipse.wst.jsdt.ui.superType.container
 spring-jndi-lookup-master/.settings/org.eclipse.wst.jsdt.ui.superType.name
+<<<<<<< HEAD
 >>>>>>> 3679503ea7b725d94789a76908c651353421ca52
+=======
+Predicado/.classpath
+Predicado/.project
+>>>>>>> 57acbf0a77cc522c5ebb38bcdd8d5d4f7906172e
