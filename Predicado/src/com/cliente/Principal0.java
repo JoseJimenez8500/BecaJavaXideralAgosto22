@@ -17,6 +17,7 @@ public class Principal0 {
 		
 		PredicadoEmpleado pe01 = new MayorEdadA();
 		PredicadoEmpleado pe02 = new SueldoMayorA();
+		PredicadoEmpleado pe03= new NombreMayorA();
 		
 		System.out.println("Empleados con edad mayor a 20 años");
 		for (Empleado e:listaEmpleados) 
@@ -29,9 +30,11 @@ public class Principal0 {
 			if (pe02.probar(e))
 				System.out.println(e);
 		
-		
-		
-		
+		System.out.println("Empleados con mas de 6 letras en el nombre");
+		for (Empleado e:listaEmpleados) 
+			if (pe03.probar(e))
+				System.out.println(e);
+	
 	}
 
 }
