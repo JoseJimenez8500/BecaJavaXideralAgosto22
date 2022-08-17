@@ -97,4 +97,11 @@ spring-jndi-lookup-master/.settings/org.eclipse.wst.jsdt.ui.superType.name
 =======
 Predicado/.classpath
 Predicado/.project
+<<<<<<< HEAD
 >>>>>>> 57acbf0a77cc522c5ebb38bcdd8d5d4f7906172e
+=======
+Comparator/.classpath
+Comparator/.project
+Lambdas/.classpath
+Lambdas/.project
+>>>>>>> 812d63f2d9c61822b6a3f44edc42223be99d342d
