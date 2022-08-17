@@ -38,6 +38,13 @@ public class Principal2 {
 			}
 		};
 		
+		PredicadoEmpleado pe04 = new PredicadoEmpleado() {
+			@Override
+			public boolean probar(Empleado e) {
+				return (e.getNombre().length() > 6)&&(e.getSueldo()>45);
+			}
+		};
+		
 		System.out.println("Empleados con edad mayor a 20 años");
 		ejecuta(listaEmpleados,pe01);
 		
@@ -46,6 +53,9 @@ public class Principal2 {
 
 		System.out.println("Empleados cuyo nombre es mayor a 6");
 		ejecuta(listaEmpleados,pe03);
+		
+		System.out.println("Empleados cuyo nombre es mayor a 6 y sueldo mayor a 45");
+		ejecuta(listaEmpleados,pe04);
 	}
 	
 	private static void ejecuta(List<Empleado> listaEmpleados, 
