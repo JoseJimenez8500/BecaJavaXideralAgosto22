@@ -104,4 +104,10 @@ Comparator/.classpath
 Comparator/.project
 Lambdas/.classpath
 Lambdas/.project
+<<<<<<< HEAD
 >>>>>>> 812d63f2d9c61822b6a3f44edc42223be99d342d
+=======
+beca/.mvn/wrapper/maven-wrapper.properties
+beca/.mvn/wrapper/maven-wrapper.jar
+beca/.mvn/wrapper/maven-wrapper.jar
+>>>>>>> bbc8f3c9a3c23429699f59d36d68ad543504fa3e

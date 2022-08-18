@@ -41,12 +41,11 @@ public class Principal2 {
 		PredicadoEmpleado pe04 = new PredicadoEmpleado() {
 			@Override
 			public boolean probar(Empleado e) {
-<<<<<<< HEAD
-				return (e.getNombre().length() > 6)&&(e.getSueldo()>45);
-=======
+
+
 				return e.getNombre().length() > 6 &&
 						e.getSueldo()>45;
->>>>>>> 812d63f2d9c61822b6a3f44edc42223be99d342d
+
 			}
 		};
 		
@@ -59,15 +58,13 @@ public class Principal2 {
 		System.out.println("Empleados cuyo nombre es mayor a 6");
 		ejecuta(listaEmpleados,pe03);
 		
-<<<<<<< HEAD
-		System.out.println("Empleados cuyo nombre es mayor a 6 y sueldo mayor a 45");
-		ejecuta(listaEmpleados,pe04);
-=======
+
+
 		System.out.println("Empleados cuyo nombre es mayor a 6 y"
 				+ " ganan mas de 45 dlls");
 		ejecuta(listaEmpleados,pe04);
 		
->>>>>>> 812d63f2d9c61822b6a3f44edc42223be99d342d
+
 	}
 	
 	private static void ejecuta(List<Empleado> listaEmpleados, 
