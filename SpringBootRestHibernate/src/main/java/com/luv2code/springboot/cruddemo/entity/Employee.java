@@ -42,8 +42,17 @@ public class Employee {
 		this.telefono = telefono;
 	}
 
+<<<<<<< HEAD
 
 
+=======
+	public Employee(int id,String firstName, String lastName, String email) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
+>>>>>>> 6415283e0ea6e59e4468fae644e27f231f12ca39
 	// define getter/setter
 	public int getId() {
 		return id;
