@@ -110,4 +110,10 @@ Lambdas/.project
 beca/.mvn/wrapper/maven-wrapper.properties
 beca/.mvn/wrapper/maven-wrapper.jar
 beca/.mvn/wrapper/maven-wrapper.jar
+<<<<<<< HEAD
 >>>>>>> bbc8f3c9a3c23429699f59d36d68ad543504fa3e
+=======
+*.jar
+SpringBootRestHibernate/.mvn/wrapper/maven-wrapper.jar
+SpringBootRestHibernate/.mvn/wrapper/maven-wrapper.properties
+>>>>>>> 13d8f9717fc17c9fd2cca4de9896f4050c1cbcab
