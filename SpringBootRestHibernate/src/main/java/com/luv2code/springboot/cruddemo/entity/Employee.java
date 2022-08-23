@@ -1,17 +1,13 @@
 package com.luv2code.springboot.cruddemo.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import lombok.*;
 
+@Data 
+@NoArgsConstructor @AllArgsConstructor
 @Entity
 @Table(name="cliente")
 public class Employee {
-
-	// define fields
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -27,6 +23,7 @@ public class Employee {
 	@Column(name="telefono")
 	private String telefono;
 	
+<<<<<<< HEAD
 		
 	// define constructors
 	
@@ -115,6 +112,8 @@ public class Employee {
 
 	
 		
+=======
+>>>>>>> 7d833ccdd5bfa883e9a7f65711f1a86c0f2cdc87
 }
 
 
